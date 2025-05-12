@@ -40,6 +40,10 @@ CREATE SCHEMA employees;
 ```
 
 ## Step 5: Load sample data
+
+The sample data come from the "employee" dataset from [this Github repo](https://github.com/neondatabase-labs/postgres-sample-dbs?tab=readme-ov-file#employees-database).
+
+
 ```
 cd data
 ```
@@ -49,5 +53,3 @@ pg_restore -d postgres://<user>:<password>@<hostname>/employees -c -v --no-owner
 
 Then if you go to the Azure Data Studio, should be able to see the data loaded:
 ![data loaded](data_loaded.png)
-
-More information of the sample database see [here](https://github.com/neondatabase-labs/postgres-sample-dbs?tab=readme-ov-file#employees-database)
