@@ -2,6 +2,10 @@ This is a repo to re-construct the tutorial [How to Build AI Agents Without Fram
 
 In case of change of the webpage, the tutorial is also available in [PDF](tutorial/how_to_build_ai_agents_without_frameworks_tutorial.pdf).
 
+# Architecture
+![Architectural Diagram](assets/architecture.jpg)
+
+
 # How to run
 
 ## Step 1:
